@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 5</title>
+</head>
+<body>
+    <FORM ACTION="http://intranet/local" METHOD=POST>
+        <P>Имя пользователя
+            <BR>
+            <INPUT NAME="nm" TYPE=TEXTBOX VALUE="Введите Ваше имя">
+        <P>Пароль
+            <BR><INPUT TYPE="PASSWORD" NAME="psw">
+        <P>Пол
+            <BR>
+            <INPUT TYPE="RADIO" NAME="m" VALUE="1">муж
+            <INPUT TYPE="RADIO" NAME="f" VALUE="2">жен
+        <P>Город проживания
+        <p><select name="city">
+            <optgroup>
+                <option value="r1">Новосибирск</option>
+                <option value="r2">Томск</option>
+                <option value="r3">Красноярск</option>
+                <option value="r3">Омск</option>
+                <option value="r3">Другой</option>
+            </optgroup>
+        <p><input type="checkbox" name="ed" value="высшее образование"> Есть ли у Вас высшее образование?</p>
+        <p>Ваша биография</p>
+            <p><textarea name="bio"></textarea></p>
+            <p><input type="button">Отчистить</p>
+            <p><input type="submit"></p>
+            
+</body>
+</html>
